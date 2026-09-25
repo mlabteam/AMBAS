@@ -152,7 +152,7 @@
    sudo apt install mono-complete -y
    ```
 
-2. Скачайте архив с Mission Planner (в формате `.zip`) с [официального сайта](https://firmware.ardupilot.org/Tools/MissionPlanner/MissionPlanner-latest.zip).
+2. Скачайте архив с Mission Planner (в формате `.zip`) с [официального сайта](https://firmware.ardupilot.org/Tools/MissionPlanner/MissionPlanner-1.3.76.zip).
 3. Распакуйте архив в удобную директорию (например, `~/MissionPlanner-latest`).
 4. Для запуска Mission Planner перейдите в папку с распакованными файлами и выполните команду:
    ```bash

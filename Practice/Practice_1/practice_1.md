@@ -137,6 +137,12 @@
    ```
    Должен вернуть путь вида: `/home/<ваше_имя>/ardupilot/Tools/autotest/sim_vehicle.py`.
 
+7. Если **после перезагрузки компьютера** вышеуказанная команда ничего не возвращает, нужно вручную добавить в PATH путь к директории с файлом "sim_vehicle.py":
+   ```bash
+   echo 'export PATH="$PATH:$HOME/ardupilot/Tools/autotest"' >> ~/.bashrc
+   ```
+   > После выполнения команды нужно перезапустить терминал.
+
 ---
 
 ### Этап 4 - Установка Mission Planner в Ubuntu
